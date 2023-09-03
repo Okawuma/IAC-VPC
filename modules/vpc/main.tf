@@ -48,7 +48,7 @@ resource "aws_subnet" "public_subnet_az2" {
 }
 
 # create route table and add a public route
-resource "aws_route_table" "intervie-rt" {
+resource "aws_route_table" "interview-rt" {
     vpc_id = aws_vpc.interview-vpc.id
 
     route {
