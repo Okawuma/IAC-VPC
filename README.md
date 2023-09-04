@@ -93,5 +93,5 @@ Enter the values for your vpc according to there keys.
        sudo systemctl start jenkins
        # check the status of the Jenkins service using the command:
        sudo systemctl status jenkins
-#### End of Jenkins installation.
+###### End of Jenkins installation.
         
