@@ -60,5 +60,5 @@
 #### (double period takes one up two directories)
 #### - list all variables for the vpc
 #### - create the terraform.tfvars file
-        Enter the values for your vpc according to there keys.
+Enter the values for your vpc according to there keys.
         
