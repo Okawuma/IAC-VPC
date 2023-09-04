@@ -64,6 +64,13 @@
 Enter the values for your vpc according to there keys.
 ## Set up of my Jenkins server for the terraform pipeline.
 ### Jenkins Installation And Setup In AWS EC2 ubuntu Instance.
+##### Prerequisite
++ AWS in Acccount.
++ Created an ubuntu EC2 t2.medium Instance with 4GB RAM.
++ Create Security Group and open Required ports.
+   + 8080 for Jenkins, 80 for ssh ..etc
++ Attach Security Group to EC2 Instance.
++ Install java openJDK openjdk-11-jdk
               #!/bin/bash
        sudo apt update -y # Update software packages on the ec2.
        #Add Jenkins repo
