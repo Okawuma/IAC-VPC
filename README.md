@@ -71,6 +71,7 @@ Enter the values for your vpc according to there keys.
    + 8080 for Jenkins, 80 for ssh ..etc
 + Attach Security Group to EC2 Instance.
 + Install java openJDK openjdk-11-jdk
+### Script for Jenkins Installation
               #!/bin/bash
        sudo apt update -y # Update software packages on the ec2.
        #Add Jenkins repo
