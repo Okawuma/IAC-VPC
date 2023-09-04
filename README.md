@@ -61,6 +61,7 @@
 #### - list all variables for the vpc
 #### - create the terraform.tfvars file
 Enter the values for your vpc according to there keys.
+## Set up of my Jenkins server for the terraform pipeline.
 ### Jenkins Installation And Setup In AWS EC2 ubuntu Instance.
               #!/bin/bash
        sudo apt update -y # Update software packages on the ec2.
