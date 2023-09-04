@@ -4,6 +4,6 @@ terraform {
     bucket = "applesch-website"
     key = "applesch-website.tfstate"
     region = "eu-west-2"
-    profile = "Otillia-AWS"
+    profile = "otillia-aws"
   }
 }
