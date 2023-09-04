@@ -61,8 +61,8 @@
 #### - list all variables for the vpc
 #### - create the terraform.tfvars file
 Enter the values for your vpc according to there keys.
-       ```( #!/bin/bash
-       #Jenkins Installation And Setup In AWS EC2 ubuntu Instance.
+#Jenkins Installation And Setup In AWS EC2 ubuntu Instance.
+              (#!/bin/bash
        sudo apt update -y # Update software packages on the ec2.
        #Add Jenkins repo
        sudo wget -O /etc/yum.repos.d/jenkins.repo \
@@ -82,6 +82,6 @@ Enter the values for your vpc according to there keys.
        # Start Jenkins as a service
        sudo systemctl start jenkins
        # check the status of the Jenkins service using the command:
-       sudo systemctl status jenkins)```
+       sudo systemctl status jenkins)
 #### End of Jenkins installation.
         
