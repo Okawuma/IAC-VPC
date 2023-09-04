@@ -39,8 +39,9 @@
 #### - export the id of the private_db_subnet_az1
 #### - export the id of the private_db_subnet_az2
 ### create a reference for the internet_gateway in the output file.
-       (output "aws_internet_gateway" { value = aws_internet_gateway.igw-interview })
-              * no id is needed.
+              output "aws_internet_gateway" { 
+                     value = aws_internet_gateway.igw-interview 
+                            } # no id is needed.
 # reference the created vpc module above in another project if necessary.
 *  This will demonstrate the re-usability of terraform modules
 * The ease of application and replication that Iac i terraform gives
