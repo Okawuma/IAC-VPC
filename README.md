@@ -1,6 +1,9 @@
 # Using Terraform to stand up a basic 3 Tier AWS Virtual Private Cloud (VPC).
 ## Project objectives:
-+ Terraform to define the VPC and its components. This ensures repeatability and version control.
++ infrastructure as code: use of terraform to define the VPC and its components. This ensures repeatability and version control.
++ High Availability: The VPC is designed to be highly available across multiple Availability Zones.
++ CI/CD Integration: The infrastructure is integrate with CI/CD pipelines, i will use Jenkins.
++ 
 ### Steps taken:
 ### create the vpc main.tf file and the varaibles.tf side by side
 ### Inside the main.tf file, create the following resources:
@@ -99,5 +102,6 @@ Enter the values for your vpc according to there keys.
 ##### Obtain initial password of jenkins using the code below:
       [ec2-user@jenkins ~]$ cat /var/lib/jenkins/secrets/initialAdminPassword
 ##### create first admin user for jenkins UI.
-
+Name : otillia
+p/w: 
         
