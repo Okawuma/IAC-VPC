@@ -103,5 +103,5 @@ Enter the values for your vpc according to there keys.
       [ec2-user@jenkins ~]$ cat /var/lib/jenkins/secrets/initialAdminPassword
 ##### create first admin user for jenkins UI.
 Name : otillia
-p/w: 
++ p/w: 
         
