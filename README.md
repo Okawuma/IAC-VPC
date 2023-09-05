@@ -1,6 +1,6 @@
 # Using Terraform to stand up a basic 3 Tier AWS Virtual Private Cloud (VPC).
 ## Project objectives:
-+ infrastructure as code: use of terraform to define the VPC and its components. This ensures repeatability and version control.
++ Infrastructure as code: use of terraform to define the VPC and its components. This ensures repeatability and version control.
 + High Availability: The VPC is designed to be highly available across multiple Availability Zones.
 + CI/CD Integration: The infrastructure is integrate with CI/CD pipelines, i will use Jenkins.
 + Security: Security Groups for EC2, Network ACLs for subnet level,VPN or Direct Connect for secure access from on-prem resources.
