@@ -1,5 +1,7 @@
-# Using Terraform to stand up a 3 Tier AWS Virtual Private Cloud (VPC).
-## Steps taken:
+# Using Terraform to stand up a basic 3 Tier AWS Virtual Private Cloud (VPC).
+## Project objectives:
+++ Terraform to define the VPC and its components. This ensures repeatability and version control.
+### Steps taken:
 ### create the vpc main.tf file and the varaibles.tf side by side
 ### Inside the main.tf file, create the following resources:
 #### - create the vpc.
