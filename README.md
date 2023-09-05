@@ -79,7 +79,7 @@ Enter the values for your vpc according to there keys.
 + AWS in Acccount.
 + Created an Amazon-Linux EC2 t2.medium Instance with 4GB RAM.
 + Create Security Group and open Required ports.
-   + 8080 for Jenkins, 80 for ssh ..etc
+   + 8080 for Jenkins and 80 for ssh.
 + Attach Security Group to EC2 Instance.
 + Install java openJDK openjdk-11-jdk
 ##### Script for Jenkins Installation
@@ -109,5 +109,7 @@ Enter the values for your vpc according to there keys.
       [ec2-user@jenkins ~]$ cat /var/lib/jenkins/secrets/initialAdminPassword
 ##### create first admin user for jenkins UI.
 Name : otillia
-+ p/w for : otillia user. 
++ p/w for : otillia user.
++ login and download suggested plugins.
++ Besure to download the Terraform plugin as well, to aid in the terraform & jenkins integration.
         
