@@ -1,5 +1,6 @@
-# Project name: Using Terraform and Jenkins to automate the provisioning of a basic 3 Tier AWS Virtual Private Cloud (VPC).
-## Project objectives:
+# Project name: 
+## Using Terraform and Jenkins to automate the provisioning of a basic 3 Tier AWS Virtual Private Cloud (VPC).
+### Project objectives:
 + Infrastructure as code: use of terraform to define the VPC and its components. This ensures repeatability and version control.
 + High Availability: The VPC is designed to be highly available across multiple Availability Zones.
 + CI/CD Integration: The infrastructure is integrate with CI/CD pipelines, i will use Jenkins.
