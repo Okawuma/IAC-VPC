@@ -1,13 +1,14 @@
 # Project name: 
 ## Using Terraform and Jenkins to automate the provisioning of a basic 3 Tier AWS Virtual Private Cloud (VPC).
 ### Project objectives:
-+ Infrastructure as code: use of terraform to define the VPC and its components. This ensures repeatability and version control.
-+ High Availability: The VPC is designed to be highly available across multiple Availability Zones.
++ Infrastructure as code: Use of terraform to define a VPC and its components; ensures repeatability and version control.
++ High Availability: VPC resources are designed to be highly available across multiple Availability Zones.
 + CI/CD Integration: The infrastructure is integrate with CI/CD pipelines, i will use Jenkins.
 + Security: Security Groups for EC2, Network ACLs for subnet level,VPN or Direct Connect for secure access from on-prem resources.
-    + storing of state file in s3 and locking it dynamo-db table.
-+ Scalability: The architecture should be scalable. This could involve setting up auto-scaling groups, load balancers, and possibly even multi-region support for future growth
-+ Cost-Efficiency: Cost-saving measures like reserved instances for resources that are continously running or spot instances for statelss apps
+    + storing of state file in s3 and locking it using a dynamo-db table.
++ Scalability: The architecture has auto-scaling groups, load balancers.
+    + possibly even multi-region support for future growth.
++ Cost-Efficiency: Cost-saving measures like reserved instances for resources that are continously running or spot instances for statelss apps.
 + Monitoring and Logging: Implementation of AWS CloudWatch, CloudTrail, and possibly third-party solutions like datadog, splunk.
 ### Steps taken:
 ### create the vpc main.tf file and the varaibles.tf side by side
