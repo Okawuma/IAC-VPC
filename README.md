@@ -7,7 +7,7 @@
 + Security: Security Groups for EC2, Network ACLs for subnet level,VPN or Direct Connect for secure access from on-prem resources.
     + storing of state file in s3 and locking it dynamo-db table.
 + Scalability: The architecture should be scalable. This could involve setting up auto-scaling groups, load balancers, and possibly even multi-region support for future growth
-+ Cost-Efficiency: The candidate should be aware of cost implications and should aim to implement cost-saving measures like reserved instances or spot instances.
++ Cost-Efficiency: Cost-saving measures like reserved instances for resources that are continously running or spot instances for statelss apps
 + Monitoring and Logging: Implementation of AWS CloudWatch, CloudTrail, and possibly third-party solutions like datadog, splunk.
 ### Steps taken:
 ### create the vpc main.tf file and the varaibles.tf side by side
