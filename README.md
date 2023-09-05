@@ -97,4 +97,5 @@ Enter the values for your vpc according to there keys.
 ##### Obtain initial password of jenkins using the code below:
       [ec2-user@jenkins ~]$ cat /var/lib/jenkins/secrets/initialAdminPassword
 ##### create first admin user for jenkins UI.
+
         
