@@ -93,5 +93,8 @@ Enter the values for your vpc according to there keys.
        sudo systemctl start jenkins 
        # check the status of the Jenkins service using the command
        sudo systemctl status jenkins
-##### End of Jenkins installation.
+###### End of Jenkins installation.
+##### Obtain initial password of jenkins using the code below:
+      [ec2-user@jenkins ~]$ cat /var/lib/jenkins/secrets/initialAdminPassword
+##### create first admin user for jenkins UI.
         
