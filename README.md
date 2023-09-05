@@ -3,7 +3,10 @@
 + infrastructure as code: use of terraform to define the VPC and its components. This ensures repeatability and version control.
 + High Availability: The VPC is designed to be highly available across multiple Availability Zones.
 + CI/CD Integration: The infrastructure is integrate with CI/CD pipelines, i will use Jenkins.
-+ 
++ Security: Security Groups for EC2, Network ACLs for subnet level,VPN or Direct Connect for secure access from on-prem resources.
++ Scalability: The architecture should be scalable. This could involve setting up auto-scaling groups, load balancers, and possibly even multi-region support for future growth
++ Cost-Efficiency: The candidate should be aware of cost implications and should aim to implement cost-saving measures like reserved instances or spot instances.
++ Monitoring and Logging: Implementation of AWS CloudWatch, CloudTrail, and possibly third-party solutions for comprehensive monitoring and logging.
 ### Steps taken:
 ### create the vpc main.tf file and the varaibles.tf side by side
 ### Inside the main.tf file, create the following resources:
