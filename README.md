@@ -125,10 +125,10 @@ Name : otillia
 + login and download suggested plugins.
 + Besure to download the Terraform plugin as well, to aid in the terraform & jenkins integration.
 + Create and attach IAM roles with the policies listed belowa to the Jenkins EC2 instance in AWS.
-+ + Policies included in the role:
-+++ i) AmazonEC2FullAccess
-ii) AmazonS3FullAccess
-iii) AmazonDynamoDBFullAccess
+###### Policies included in the role:
++ i) AmazonEC2FullAccess
++ ii) AmazonS3FullAccess
++ ii) AmazonDynamoDBFullAccess
 
 
 
