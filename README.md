@@ -11,8 +11,8 @@
 + Cost-Efficiency: Cost-saving measures like reserved instances for resources that are continously running or spot instances for statelss apps.
 + Monitoring and Logging: Implementation of AWS CloudWatch, CloudTrail, and possibly third-party solutions like datadog, splunk.
 ### Steps taken:
-### please see reference to the architecture
-[]
+### please see reference to the architecture.
+[https://github.com/Okawuma/IAC-VPC/blob/main/modules/vpc/vpc.drawio.png]
 ### create the vpc main.tf file and the varaibles.tf side by side
 ### Inside the main.tf file, create the following resources:
 #### - create the vpc.
