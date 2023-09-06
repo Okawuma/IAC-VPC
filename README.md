@@ -108,15 +108,15 @@ Enter the values for your vpc according to there keys.
        # check the status of the Jenkins service using the command
        sudo systemctl status jenkins
 ###### End of Jenkins installation.
-#### Install terraform binary in Jenkins
-        #!/bin/bash
-sudo yum update
-sudo yum install -y curl unzip
-curl -LO https://releases.hashicorp.com/terraform/1.5.6/terraform_1.5.6_linux_amd64.zip
-unzip terraform_1.5.6_linux_amd64.zip
-sudo mv terraform /usr/local/bin/
-echo "1.5.6. is the latest Terraform version as @ June/2023"
-terraform version
+#### Install terraform binary in Jenkins using script below;
+            #!/bin/bash
+    sudo yum update
+    sudo yum install -y curl unzip
+    curl -LO https://releases.hashicorp.com/terraform/1.5.6/terraform_1.5.6_linux_amd64.zip
+    unzip terraform_1.5.6_linux_amd64.zip
+    sudo mv terraform /usr/local/bin/
+    echo "1.5.6. is the latest Terraform version as @ June/2023"
+    terraform version
 ##### Obtain initial password of jenkins using the code below:
       [ec2-user@jenkins ~]$ cat /var/lib/jenkins/secrets/initialAdminPassword
 ##### create first admin user for jenkins UI.
