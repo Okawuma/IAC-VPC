@@ -129,6 +129,7 @@ Name : otillia
 + i) AmazonEC2FullAccess
 + ii) AmazonS3FullAccess
 + ii) AmazonDynamoDBFullAccess
+#### Create the jenkins pipeline job using script below.
 
 
 
